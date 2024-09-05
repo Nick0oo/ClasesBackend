@@ -15,6 +15,6 @@ por comodidad esta estructurada por carpetas y avances vamos a ello:
 - [Json](https://github.com/Nick0oo/ClasesBackend/blob/main/Clase%201/server_response_json.js)
 - [sever/main](https://github.com/Nick0oo/ClasesBackend/blob/main/Clase%201/server.js)
 > [!IMPORTANT]
-> Logicamente Hicimos los demas, esta intersante y seguire aprendiendo.
+> Logicamente Hice los demas, esta intersante y seguire aprendiendo.
 ### 
 
