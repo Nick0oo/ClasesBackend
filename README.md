@@ -8,7 +8,8 @@
 por comodidad esta estructurada por carpetas y avances vamos a ello:
 **se dividira por carpetas y clases o parciales para tener un seguimieno adecuado**
 
- # 📁[Clase/Actividad 1](https://github.com/Nick0oo/ClasesBackend/tree/main/Clase%201) Aqui se Podra ver todo referente a la actividad 1 , todas las interacciones.
+ # 📁[Clase/Actividad 1](https://github.com/Nick0oo/ClasesBackend/tree/main/Clase%201)
+ Aqui se Podra ver todo referente a la actividad 1 , todas las interacciones.
 >-  los que mas me agradaron fueron:
 - [Redireccionar](https://github.com/Nick0oo/ClasesBackend/blob/main/Clase%201/server_response_redirect_pages.js)
 - [HTML](https://github.com/Nick0oo/ClasesBackend/blob/main/Clase%201/server_response_html.js).
