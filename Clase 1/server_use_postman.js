@@ -16,18 +16,18 @@ const server = http.createServer((req, res) => {
     
     req.on('end', () => {
       try {
-        const data = JSON.parse(body);  // Intentamos parsear los datos como JSON
+        const data = JSON.parse(body); 
 
         if (data.nombre) {
-          // Si tenemos un nombre, enviamos un saludo personalizado y las letras "ns" en binario
+          
           res.statusCode = 200;
           res.setHeader('Content-Type', 'application/json');
           res.end(JSON.stringify({
             message: `¡Hola, ${data.nombre}! Gracias por enviar tus datos.`,
-            binario: `${letrasEnBinario.n} ${letrasEnBinario.s}`  // Binario de "ns"
+            binario: `${letrasEnBinario.n} ${letrasEnBinario.s}`  
           }));
         } else {
-          // Si falta el campo "nombre", enviamos un mensaje de error
+          
           res.statusCode = 400;
           res.setHeader('Content-Type', 'application/json');
           res.end(JSON.stringify({
@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
           }));
         }
       } catch (error) {
-        // Si el formato no es JSON válido
+        
         res.statusCode = 400;
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify({
@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
       }
     });
   } else {
-    // Respuesta a solicitudes GET o cualquier método que no sea POST
+    
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end('Envíame una solicitud POST con tu nombre en formato JSON.');
