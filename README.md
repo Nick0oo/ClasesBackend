@@ -10,12 +10,15 @@ por comodidad esta estructurada por carpetas y avances vamos a ello:
 
  # 📁[Clase/Actividad 1](https://github.com/Nick0oo/ClasesBackend/tree/main/Clase%201)
  Aqui se Podra ver todo referente a la actividad 1 , todas las interacciones.
->-  los que mas me agradaron fueron:
+> los que mas me agradaron fueron:
 - [Redireccionar](https://github.com/Nick0oo/ClasesBackend/blob/main/Clase%201/server_response_redirect_pages.js)
 - [HTML](https://github.com/Nick0oo/ClasesBackend/blob/main/Clase%201/server_response_html.js).
 - [Json](https://github.com/Nick0oo/ClasesBackend/blob/main/Clase%201/server_response_json.js)
 - [sever/main](https://github.com/Nick0oo/ClasesBackend/blob/main/Clase%201/server.js)
-> [!IMPORTANT]
-> Logicamente Hice los demas, esta intersante y seguire aprendiendo.
-### 
+
+
+
+# 📁[TypeScript](https://github.com/Nick0oo/ClasesBackend/tree/main/TypeScript)
+> todo lo referente a typeScript que iremos viendo a la largo del semestre
+- [Ejmplos basicos de Tipos](https://github.com/Nick0oo/ClasesBackend/blob/main/TypeScript/src/types/examplesTypes.ts)
 
