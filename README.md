@@ -20,5 +20,6 @@ por comodidad esta estructurada por carpetas y avances vamos a ello:
 
 # 📁[TypeScript](https://github.com/Nick0oo/ClasesBackend/tree/main/TypeScript)
 > todo lo referente a typeScript que iremos viendo a la largo del semestre
-- [Ejmplos basicos de Tipos](https://github.com/Nick0oo/ClasesBackend/blob/main/TypeScript/src/types/examplesTypes.ts)
+- [Ejemplos basicos de Tipos](https://github.com/Nick0oo/ClasesBackend/blob/main/TypeScript/src/types/examplesTypes.ts)
+- [Documento correccion de errores con esLint](https://github.com/Nick0oo/ClasesBackend/blob/main/CorreccionErroresNicolasSalas.docx)
 
