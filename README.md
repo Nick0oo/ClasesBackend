@@ -22,4 +22,5 @@ por comodidad esta estructurada por carpetas y avances vamos a ello:
 > todo lo referente a typeScript que iremos viendo a la largo del semestre
 - [Ejemplos basicos de Tipos](https://github.com/Nick0oo/ClasesBackend/blob/main/TypeScript/src/types/examplesTypes.ts)
 - [Documento correccion de errores con esLint](https://github.com/Nick0oo/ClasesBackend/blob/main/CorreccionErroresNicolasSalas.docx)
+- [Taller 1 ejemplos funciones TypeScript](https://github.com/Nick0oo/ClasesBackend/blob/main/TypeScript/src/talleres/Taller_1.ts) 
 
