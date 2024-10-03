@@ -2,7 +2,7 @@
 
 // String
 // ejemplo de string 1
-const username = 'nicolas';
+const usernamee = 'nicolas';
 console.log(username, 'username 01');
 // ejemplo de string 2
 let dog = '';

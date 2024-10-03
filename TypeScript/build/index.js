@@ -1,4 +1,4 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./types/examplesTypes");
+require("./talleres/Taller_1");
 //# sourceMappingURL=index.js.map
