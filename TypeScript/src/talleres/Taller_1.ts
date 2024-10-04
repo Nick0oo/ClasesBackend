@@ -9,8 +9,13 @@ console.log('\n', '\n');
 // punto 1
 console.log('SOLUCIONES EJERCICIO 1');
 const auxNumber: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 // 1. agregar al array por medio de push 10,12,15,16 y 17
-auxNumber.push(10, 12, 15, 16, 17);
+auxNumber.push(10);
+auxNumber.push(12);
+auxNumber.push(15);
+auxNumber.push(16);
+auxNumber.push(17);
 console.log( ' Punto 1 ' , auxNumber);
 // 2. eliminar el ultimo elmento con pop
 const auxNumberPop= auxNumber.pop();
@@ -91,6 +96,7 @@ const arrayProducts: any[] = [
     }
 
 ]
+
 // 1. filtrar en una const donde el price sea mayor a 900 por medio de filter y por medio de un for
 console.log('punto 1 ');
 const filterProducts = arrayProducts.filter((product) => product.price > 900);
@@ -99,11 +105,9 @@ const filterProductsFor: any[] = [];
 for(let i = 0; i < arrayProducts.length; i++){
     if(arrayProducts[i].price > 900){
         filterProductsFor.push(arrayProducts[i]);
-        
     }
 }
 console.log('filtrado por for: ', filterProductsFor);
-
 // 2. encontrar el primer objeto del array donde pricediscount sea mayor a 500 por medio de find
 console.log('punto 2 ');
 const findProducts = arrayProducts.find((product) => product.pricediscount > 500);
@@ -115,23 +119,20 @@ console.log('indice del producto encontrado: ', findIndexProducts);
 // 4. agregar 3 nuevos objetos de un producto de una tienda real por medio de push
 console.log('punto 4 ');
 arrayProducts.push(
-    {
-        id: 3,
-        name: 'fideos',
-        price: 2000,
-        pricediscount: 1500
+    { id: 3,
+    name: 'fideos',
+    price: 2000,
+    pricediscount: 1500
     },
-    {
-        id: 4,
-        name: 'aceite',
-        price: 3000,
-        pricediscount: 2000
+    {id: 4,
+    name: 'aceite',
+    price: 3000,
+    pricediscount: 2000
     },
-    {
-        id: 5,
-        name: 'sal',
-        price: 500,
-        pricediscount: 300
+    {id: 5,
+    name: 'sal',
+    price: 500,
+    pricediscount: 300
     }
 )
 console.log('productos agregados fideos, aceite y sal: ', arrayProducts);
