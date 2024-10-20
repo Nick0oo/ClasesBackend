@@ -4,10 +4,14 @@ console.log('Javier Nicolas Salas Liñeiro');
 console.log('\n', '\n');
 console.log('SOLUCIONES EJERCICIO 1');
 const auxNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-auxNumber.push(10, 12, 15, 16, 17);
+auxNumber.push(10);
+auxNumber.push(12);
+auxNumber.push(15);
+auxNumber.push(16);
+auxNumber.push(17);
 console.log(' Punto 1 ', auxNumber);
-auxNumber.pop();
-console.log('Punto 2 ', auxNumber);
+const auxNumberPop = auxNumber.pop();
+console.log('Punto 2 ', auxNumberPop);
 const index1Taller = auxNumber.indexOf(1);
 const index2Taller = auxNumber.indexOf(4);
 const index3Taller = auxNumber.indexOf(7);
@@ -82,18 +86,15 @@ console.log('punto 3 ');
 const findIndexProducts = arrayProducts.findIndex((product) => product.price > 1000);
 console.log('indice del producto encontrado: ', findIndexProducts);
 console.log('punto 4 ');
-arrayProducts.push({
-    id: 3,
+arrayProducts.push({ id: 3,
     name: 'fideos',
     price: 2000,
     pricediscount: 1500
-}, {
-    id: 4,
+}, { id: 4,
     name: 'aceite',
     price: 3000,
     pricediscount: 2000
-}, {
-    id: 5,
+}, { id: 5,
     name: 'sal',
     price: 500,
     pricediscount: 300
